@@ -168,7 +168,7 @@ h1 {
 @media (max-width: 1028px) {
   .dog-phone-image {
     transform: rotate(0);
-    right: 2%;
+    right: 8%;
   }
   #title {
     height: auto;
