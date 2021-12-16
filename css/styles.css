@@ -1,0 +1,182 @@
+
+  /*try dividing css for different sections in yr projects*/
+body, h1, .second-sec-text, .testimonial-text, .bottom-text {
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+}
+
+#features {
+  padding-right: 125px;
+  padding-left: 125px;
+}
+
+
+#testimonials {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #ef8172;
+}
+
+.container-fluid #title {
+  overflow: hidden;
+  height: 600px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+
+#pricing {
+  padding:100px;
+}
+
+#cta {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+
+#footer {
+  padding-top: 75px;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+  font-size:2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+.dog-phone-image {
+  transform:rotate(25deg);
+  width: 60%;
+  position: relative;
+  left: 10%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.second-sec-icons {
+  color:pink;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #ef8172;
+}
+
+.second-sec-icons:hover {
+  color: #ff4c68;
+}
+
+.second-sec-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.second-sec-text-description {
+  color: #8f8f8f;
+}
+
+.features-col {
+   margin: 175px 0 175px 0;
+   padding-left: 50px;  /*  try using padding and margin right and left in % for responsiveness */
+   padding-right: 50px;
+   line-height: 1.5;
+}
+
+.carousel-inner {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.bottom-text {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+  width:50%;
+  margin:auto;
+}
+
+.footer-icons {
+  margin:10px;
+}
+
+.colored-sec {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-sec {
+  background-color: #fff;
+}
+
+/* write media queries in end to avoid getting over-ridden */
+@media (max-width: 1028px) {
+  .dog-phone-image {
+    transform: rotate(0);
+    left: 3%;
+  }
+  #title {
+    height: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  .features-col {
+    margin: 60px 0 60px 0;
+  }
+  }
